@@ -12,6 +12,7 @@ from app.api.endpoints.notifications import router as notifications_router
 from app.api.endpoints.tour_stops import router as tour_stops_router
 from app.api.endpoints.califications import router as califications_router
 from app.db.init_db import init_db
+from app.models.chat_message import ChatMessage
 
 Base.metadata.create_all(bind=engine)
 
